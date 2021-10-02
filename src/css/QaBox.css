@@ -1,0 +1,39 @@
+.qaBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: beige;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.qaBox:hover {
+    border: 1px solid rgb(175, 175, 175);
+  }
+  
+.qaBox__info {
+    display: flex;
+    align-items: center;
+}
+  
+.qaBox__info > h5 {
+    color: rgb(129, 129, 129);
+    font-weight: 300;
+    margin-left: 10px;
+}
+  
+.qaBox__qa {
+    display: flex;
+    margin-top: 8px;
+}
+  
+.qaBox__qa > p {
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
+.qaBox__info{
+    display: flex;
+    align-items:center;
+    
+}
